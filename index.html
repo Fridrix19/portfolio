@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRIDRIX — Современное портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">FRIDRIX</div>
+            <div class="nav-links">
+                <a href="#work" class="nav-link">Работы</a>
+                <a href="#about" class="nav-link">О себе</a>
+                <a href="#contact" class="nav-link">Контакты</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-main">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="line">Создаю</span>
+                        <span class="line">цифровые</span>
+                        <span class="line">решения</span>
+                    </h1>
+                    <p class="hero-subtitle">WEB-разработка</p>
+                </div>
+                <div class="hero-mascot">
+                    <div class="mascot-text">FRIDRIX</div>
+                    <img src="img/mascot.svg" alt="Mascot" class="mascot-image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-dot"></div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filters" id="work">
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="web">WEB-разработка</button>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects">
+        <div class="projects-container">
+            <!-- WEB Projects -->
+            <article class="project-card" data-category="web">
+                <div class="project-image" style="background-image: url('img/inno.png'); background-size: contain; background-position: center;">
+                    <div class="project-overlay">
+                        <span class="project-category">WEB-разработка</span>
+                        <h3 class="project-title">INNNOWHITE</h3>
+                        <p class="project-description">Сайт для производителя отбеливающей косметики. Работа от варфрейма до полноценного продукта с кросс-платформенной адаптацией</p>
+                        <a href="product.html?id=9" class="project-link">Подробнее →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card" data-category="web">
+                <div class="project-image" style="background-image: url('img/beat.png'); background-size: contain; background-position: center;">
+                    <div class="project-overlay">
+                        <span class="project-category">WEB-разработка</span>
+                        <h3 class="project-title">BEATFOUND</h3>
+                        <p class="project-description">Веб-приложение дистрибьютора для продвижения треков и обнаружения совпадений в битах. Работа от варфрейма до полноценного продукта</p>
+                        <a href="product.html?id=10" class="project-link">Подробнее →</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="project-card" data-category="web">
+                <div class="project-image" style="background-image: url('img/giga1.png'); background-size: contain; background-position: center;">
+                    <div class="project-overlay">
+                        <span class="project-category">WEB-разработка</span>
+                        <h3 class="project-title">ГИГАПИН</h3>
+                        <p class="project-description">Образовательное приложение с системой рейтинга и геймификацией. 2 место на хакатоне кафедры ЦИАТ</p>
+                        <a href="product.html?id=11" class="project-link">Подробнее →</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2 class="section-title">О себе</h2>
+                <p class="about-text">
+                    Специализируюсь на создании цифровых продуктов, которые сочетают в себе 
+                    элегантный дизайн и функциональность. Работаю на стыке UX/UI дизайна, 
+                    веб-разработки и анимации, создавая целостные пользовательские опыты.
+                </p>
+                <div class="skills">
+                    <div class="skill-item">Figma</div>
+                    <div class="skill-item">HTML/CSS</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">After Effects</div>
+                    <div class="skill-item">React</div>
+                    <div class="skill-item">Photoshop</div>
+                    <div class="skill-item">Illustrator</div>
+                    <div class="skill-item">Premiere Pro</div>
+                    <div class="skill-item">FL Studio</div>
+                </div>
+                
+                <h3 class="ai-section-title">AI Инструменты</h3>
+                <div class="skills ai-skills">
+                    <div class="skill-item">Cursor</div>
+                    <div class="skill-item">GPT</div>
+                    <div class="skill-item">API</div>
+                    <div class="skill-item">Stable Diffusion</div>
+                    <div class="skill-item">Midjourney</div>
+                    <div class="skill-item">ReCraft</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-links">
+                <a href="mailto:hello@portfolio.com" class="contact-link">Email</a>
+                <a href="#" class="contact-link">Behance</a>
+                <a href="#" class="contact-link">Dribbble</a>
+                <a href="#" class="contact-link">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 FRIDRIX. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
